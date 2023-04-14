@@ -1,0 +1,190 @@
+.CheckoutCart__title {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(24, 14, 55, 0.83);
+  margin-bottom: 32px;
+  padding-top: 2rem;
+}
+body {
+  background: #fbfbfb;
+}
+.CheckoutCart {
+  margin: 0rem 12px;
+  max-width: min(45rem, 92%);
+  margin: 0 auto;
+}
+
+.CheckoutCart__details {
+  margin-left: 24px;
+  margin-right: 50px;
+}
+.CheckoutCart__details h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(24, 14, 55, 0.83);
+}
+.CheckoutCart__details p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(24, 14, 55, 0.83);
+  margin-top: 1.5px;
+}
+.CheckoutCart__details button {
+  border: none;
+  background-color: transparent;
+  outline-color: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  margin-top: 10px;
+  /* margin-bottom: 6px; */
+
+  color: rgba(24, 14, 55, 0.83);
+}
+
+.CheckoutCart__qty div:nth-child(2) {
+  margin-top: 14px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+img[alt="checkoutcartrupee"] {
+  height: 12px;
+  width: 8px;
+  margin-right: 6px;
+}
+img[alt="CheckoutCartDropdown"] {
+  height: 6px;
+  width: 11px;
+}
+img[alt="checkoutcoupon"] {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+
+.CheckoutCart__item {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  padding: 1rem;
+  background: #fdfdfd;
+  box-shadow: 0px 12px 60px rgba(100, 100, 100, 0.12);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.CheckoutCart__coupon {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 12px;
+  background: linear-gradient(90.55deg, #892ae2 1.89%, #4e03e0 102.03%);
+  box-shadow: 0px 8px 40px rgba(0, 0, 0, 0.16),
+    inset 0px 8px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  color: #efe6fd;
+}
+
+.CheckoutCart__bill {
+  padding: 20px;
+  margin-top: 28px;
+  background: #fdfdfd;
+  /* card effects */
+
+  box-shadow: 0px 12px 60px rgba(100, 100, 100, 0.12);
+  border-radius: 7px;
+}
+.CheckoutCart__bill h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+
+.CheckoutCart__bill > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6px;
+  padding-bottom: 9px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(24, 14, 55, 0.83);
+}
+
+.CheckoutCart__placeorder {
+  margin: 50px;
+  display: block;
+  padding: 8px 24px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 141%;
+  letter-spacing: -0.01em;
+  color: #f4f4f4;
+  border: none;
+  outline-color: transparent;
+  background: linear-gradient(96.63deg, #7527e4 1.02%, #8634d9 100%);
+  box-shadow: 0px 8px 40px rgba(29, 29, 29, 0.16);
+  border-radius: 5.15111px;
+}
+
+.CheckoutCart__input {
+  width: 100%;
+}
+
+.CheckoutCart__input input {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #efe6fd;
+  border-radius: 6px;
+  outline-color: transparent;
+  padding: 0.5rem 8px;
+  font-size: 1rem;
+  width: 100%;
+  padding-left: 0.5rem;
+}
+
+.CheckoutCart__input {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.CheckoutCart__input button {
+  margin-left: 0.5rem;
+  padding: 8px 24px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  color: #f4f4f4;
+  border: none;
+  outline-color: transparent;
+  background: linear-gradient(96.63deg, #7527e4 1.02%, #8634d9 100%);
+  box-shadow: 0px 8px 40px rgba(29, 29, 29, 0.16);
+  border-radius: 5.15111px;
+}

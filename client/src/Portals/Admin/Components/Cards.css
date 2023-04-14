@@ -1,0 +1,56 @@
+.AdminCards__wrapper {
+  width: 85%;
+}
+.AdminCards {
+  font-family: "Montserrat";
+  border-radius: 20px 20px 0 0;
+  font-style: normal;
+  padding: 18px 10px 10px 18px;
+  background: #ffffff;
+}
+.AdminCards h4 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+}
+.AdminCards p {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #007a00;
+}
+.AdminCards h3 {
+  margin: 20px 0;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 41px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+
+.AdminCards a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: #928e9b;
+  margin-bottom: 1rem;
+}
+.AdminCards img[alt="arrowup"] {
+  height: 12px;
+  width: 12px;
+  margin: 0 2px;
+}
+
+.AdminCards div:nth-child(1) {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.AdminCards img[alt="cardicon"] {
+  height: 15px;
+  width: 20px;
+  margin: 0 4px;
+}

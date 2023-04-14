@@ -1,0 +1,26 @@
+.AdminTable__logs__header {
+  background: #8133f1;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+.AdminTable__logs__row {
+  border-bottom: 1px solid #e7e7e9;
+  background: #ffffff;
+  color: #413b51;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.AdminTable__logs__header,
+.AdminTable__logs__row {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 1fr 1fr;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  padding: 20px;
+  justify-items: center;
+}

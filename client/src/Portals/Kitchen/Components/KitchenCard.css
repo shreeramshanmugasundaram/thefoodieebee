@@ -1,0 +1,146 @@
+.KitchenCard__orderid {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 120%;
+  letter-spacing: -0.015em;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+.KitchenCard__wrapper {
+  padding: 12px 18px;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  width: 98%;
+  margin: 20px auto;
+}
+.KitchenCard__main {
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+.KitchenCard__main > div:nth-child(1) {
+  width: 80px;
+  height: 80px;
+  background: #9654f4;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 32px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 1rem;
+}
+.KitchenCard__main > div:nth-child(2) {
+  margin-left: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.KitchenCard__main > div:nth-child(2) div {
+  border-left: 2px solid #f1f1f1;
+  padding-left: 1rem;
+}
+.KitchenCard__main > div:nth-child(2) h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+.KitchenCard__main > div:nth-child(2) p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+  padding-bottom: 8px;
+}
+.KitchenCard__main > div:nth-child(2) span {
+  margin-right: 0.2rem;
+}
+
+.KitchenCard__wrapper button {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: #ffffff;
+  background: #9654f4;
+  border-radius: 6px;
+  padding: 8px 24px;
+  border: none;
+  outline-color: transparent;
+  margin: 0 12px 0 auto;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .KitchenCard__orderid {
+    font-size: 12px;
+  }
+  .KitchenCard__main > div:nth-child(2) h4 {
+    font-size: 12px;
+  }
+  .KitchenCard__main > div:nth-child(2) p {
+    font-size: 10px;
+  }
+  .KitchenCard__main > div:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+  .KitchenCard__wrapper button {
+    font-size: 12px;
+  }
+  .KitchenCard__main > div:nth-child(2) {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .KitchenCard__main > div:nth-child(2) {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .KitchenCard__orderid {
+    font-size: 16px;
+  }
+  .KitchenCard__main > div:nth-child(2) h4 {
+    font-size: 16px;
+  }
+  .KitchenCard__main > div:nth-child(2) p {
+    font-size: 12px;
+  }
+  .KitchenCard__main > div:nth-child(1) {
+    width: 80px;
+    height: 80px;
+    font-size: 32px;
+  }
+  .KitchenCard__wrapper button {
+    font-size: 16px;
+  }
+  .KitchenCard__main > div:nth-child(2) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

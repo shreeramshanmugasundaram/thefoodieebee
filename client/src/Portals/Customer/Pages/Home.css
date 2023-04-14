@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+:root {
+  --clr-primary: hsla(253, 92%, 64%, 1);
+  --ft-primary: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+.CustomerPortal {
+  font-family: var(--ft-primary);
+  position: relative;
+  width: min(70rem, 90%);
+  margin: 1rem auto;
+}
+.CustomerHero {
+  width: min(70rem, 90%);
+  margin: 1rem auto;
+}
+.textclr--primary {
+  color: var(--clr-primary);
+}
+.deco__cir {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  background-color: var(--clr-primary);
+  filter: blur(200px);
+  top: -0.5%;
+  left: -10%;
+  position: absolute;
+}
+.CustomerHero__logo {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 100%;
+  padding: 1rem 0;
+}
+
+.CustomerHero__content > h2 {
+  font-weight: 600;
+  font-size: 2.5em;
+  line-height: 120%;
+  padding: 0 1rem 1rem 0;
+}
+.CustomerHero__content > p {
+  font-weight: 600;
+  font-size: 1.2em;
+  line-height: 41px;
+  letter-spacing: -0.015em;
+  padding: 0 1rem 2rem 0;
+}
+
+.btn1 {
+  padding: 0.8rem 2rem;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  border-radius: 6px;
+  margin: 0.5rem 0 0 0;
+  font-size: 1rem;
+}
+
+.btn1--tran {
+  background-color: transparent;
+  border: 1px solid var(--clr-primary);
+  color: var(--clr-primary);
+}
+.btn1--clr {
+  background-color: var(--clr-primary);
+  color: white;
+  border: none;
+  box-shadow: 0px 8px 40px rgba(29, 29, 29, 0.16);
+}
+.btn--block {
+  display: block;
+}
+.Customer--title {
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 120%;
+  padding: 4rem 0;
+}
+
+.Customer--text20 {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 141%;
+  letter-spacing: -0.01em;
+}
+
+.CustomerHero {
+  height: 100vh;
+  /* background-color: antiquewhite; */
+}
+.CustomerHero__flex > * {
+  width: 100%;
+  padding: 1rem;
+}
+.CustomerHero__flex {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.CustomerHero__img {
+  position: relative;
+}
+.CustomerHero__img > img {
+  position: absolute;
+}
+
+img[alt="hero"] {
+  position: static;
+  margin: 0 0 5rem 0;
+  object-fit: contain;
+  object-position: 50% 50%;
+  scale: 0.8;
+}
+img[alt="cake"] {
+  top: -20%;
+  left: 28%;
+  scale: 0.75;
+  rotate: 5deg;
+}
+img[alt="cofee"] {
+  bottom: -10%;
+  left: 30%;
+  rotate: 5deg;
+  scale: 0.5;
+}
+img[alt="fries"] {
+  top: -30%;
+  left: -27%;
+  rotate: 5deg;
+  scale: 0.6;
+}
+img[alt="pizza"] {
+  top: 35%;
+  left: -30%;
+  rotate: 5deg;
+  scale: 0.9;
+}
+img[alt="tacbo"] {
+  top: 0%;
+  left: -42%;
+  rotate: 5deg;
+  scale: 0.5;
+}
+
+.CustomerAbout p {
+  padding: 1rem;
+}
+.CustomerGallery__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.5rem;
+}
+.CustomerGallery--radius {
+  border-radius: 10px;
+}
+.CustomerTestimonials__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.Tcard {
+  background-color: hsla(254, 59%, 9%, 1);
+  padding: 1rem;
+  border-radius: 10px;
+}
+.Tcard__info,
+.Tcard__rating {
+  display: flex;
+}
+.Tcard__info > img {
+  border-radius: 50%;
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+.Tcard__info > div {
+  color: var(--clr-primary);
+  padding: 0.5rem 1rem;
+}
+.Tcard__info > div > * {
+  padding: 0.5rem 0 0 0;
+}
+.Tcard p {
+  padding: 4rem 1rem;
+  color: #f1f1f1;
+}
+.CustomerFooter {
+  width: 100%;
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  background-color: var(--clr-primary);
+  color: white;
+  padding: 3rem 1rem;
+}

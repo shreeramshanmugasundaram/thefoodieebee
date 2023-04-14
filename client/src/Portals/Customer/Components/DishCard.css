@@ -1,0 +1,104 @@
+.veg__icon,
+.nonveg__icon {
+  background-color: transparent;
+  border: 1px solid #007a00;
+  border-radius: 6px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 8px 0;
+}
+.veg__icon > div,
+.nonveg__icon > div {
+  background-color: #007a00;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.nonveg__icon {
+  border: 1px solid red !important;
+}
+.nonveg__icon > div {
+  background-color: red !important;
+}
+
+.Menu__dishcardcontent h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(24, 14, 55, 0.83);
+}
+
+img[alt="Dishstar"] {
+  width: 14px;
+  height: 14px;
+}
+img[alt="rupeesicon"] {
+  width: 8px;
+  height: 12px;
+}
+img[alt="dishimage"] {
+  filter: drop-shadow(0px 11.7701px 29.4253px rgba(0, 0, 0, 0.16));
+  border-radius: 12px;
+  width: 140px;
+  height: 140px;
+}
+.Menu__dishcardcontent p:nth-child(1) {
+  margin-top: 6px;
+}
+.Menu__dishcardcontent p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #928e9b;
+}
+.Menu__cardamount {
+  margin-top: 1rem;
+}
+.Menu__cardamount div {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+}
+.Menu__cardImg {
+  position: relative;
+}
+.Menu__cardbtn {
+  display: inline;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5900d9;
+  background: #efe6fd;
+  border-radius: 6px;
+  padding: 10px 9.5px;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  transform: translate(25%, 50%);
+}
+
+.Menu__dishcard {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 12px;
+  padding: 22px;
+  background: #ffffff;
+  box-shadow: 0px 12px 60px rgba(100, 100, 100, 0.12);
+  border-radius: 12px;
+  gap: 1rem;
+}
+.Menu__cardamount {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}

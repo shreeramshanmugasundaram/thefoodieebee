@@ -1,0 +1,229 @@
+.PopCardbg {
+  background: linear-gradient(
+    182.86deg,
+    rgba(217, 217, 217, 0.08) -2.64%,
+    rgba(158, 158, 158, 0.57) 97.62%
+  );
+  position: fixed;
+  width: min(45rem, 100%);
+  height: 100vh;
+  top: 0;
+  transform: translate(0, 100%);
+  transition: transform 0.3s ease-in 0.2s;
+  overflow: hidden;
+}
+.PopCard {
+  background: #ececec;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin-top: 1rem;
+}
+.PopCard__content {
+  padding: 15px;
+  background: #fdfdfd;
+  border-radius: 5px;
+  margin: 18px 12px 6px 12px;
+}
+.PopCard__content h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: rgba(24, 14, 55, 0.83);
+}
+.PopCard__counter button {
+  background-color: transparent;
+  outline-color: transparent;
+  border: none;
+}
+.PopCard__countertitle {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.PopCard__counter {
+  background: #efe6fd;
+  border: 1px solid #5900d9;
+  box-shadow: 0px 12px 60px rgba(100, 100, 100, 0.12);
+  border-radius: 3px;
+  padding: 4px 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  color: #5900d9;
+}
+
+.PopCard__counter span {
+  margin: 0 16px;
+}
+.PopCard__content p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #928e9b;
+  margin-top: 10px;
+  margin-bottom: 6px;
+}
+.PopCard__addinfo {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #000000;
+  position: relative;
+  margin-bottom: 2px;
+}
+img[alt="PopCarddropdown"] {
+  width: 10px;
+  height: 7px;
+}
+.PopCard__addons {
+  margin: 12px;
+  overflow: scroll;
+  height: 15vh;
+  background: #fdfdfd;
+  border-radius: 7px;
+  padding: 16px 32px 16px 16px;
+}
+.PopCard__addons h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: rgba(24, 14, 55, 0.83);
+  margin-bottom: 16px;
+  display: inline;
+}
+.PopCard__addons p {
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+}
+img[alt="popcardruppee"] {
+  width: 5px;
+  height: 7.5px;
+  margin-right: 3px;
+  margin-left: 0.5rem;
+}
+img[alt="popcardimg"] {
+  margin-bottom: 20px;
+  box-shadow: 0px 11.7701px 29.4253px rgba(0, 0, 0, 0.16);
+  border-radius: 12px;
+  max-width: min(20rem, 100%);
+}
+.PopCard__addons .PopCard__addonprice {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  margin-right: 0.5rem;
+}
+
+/* custom check box */
+.PopCard__addons > div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+/* Customize the label (the container) */
+.PopCard__addons .container {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* width: 46px; */
+  height: 16px;
+}
+
+/* Hide the browser's default checkbox */
+.PopCard__addons .container input {
+  position: absolute;
+  opacity: 0;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.PopCard__addons .checkmark {
+  position: absolute;
+  top: 0px;
+  height: 12px;
+  width: 12px;
+  background-color: #efe6fd;
+  border: 1px solid #ceb0fa;
+  border-radius: 2px;
+  right: -30%;
+}
+
+/* On mouse-over, add a grey background color */
+.PopCard__addons .container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.PopCard__addons .container input:checked ~ .checkmark {
+  background-color: #5900d9;
+  border: 1px solid #5900d9;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.PopCard__addons .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.PopCard__addons .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.PopCard__addons .container .checkmark:after {
+  z-index: 99;
+  left: 3px;
+  top: 1px;
+  width: 2.5px;
+  height: 5px;
+  border: 0.2px solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.PopCard__additem {
+  background: #fdfdfd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.PopCard__additem div:nth-child(1) {
+  margin-left: 1rem;
+}
+.PopCard__additem div {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  color: #efe6fd;
+  padding: 10px 8px;
+  background: linear-gradient(96.63deg, #7527e4 1.02%, #8634d9 100%);
+  box-shadow: 0px 8px 40px rgba(29, 29, 29, 0.16);
+  border-radius: 4px;
+  margin: 9px 36px 10px 0;
+}

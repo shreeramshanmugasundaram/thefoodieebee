@@ -1,0 +1,86 @@
+.Kitchen__searchhistory {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  width: 98%;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px 24px;
+  margin: 20px auto 10px auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+.Kitchen__searchhistory input {
+  width: 100%;
+  border: none;
+  outline-color: transparent;
+  padding: 1rem 0.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+}
+
+img[alt="kitchenhistorysearchicon"] {
+  width: 20px;
+  height: 20px;
+}
+.kitchen__date {
+  margin: 1rem;
+  border: 2px solid #333;
+  padding: 0.2rem 0.6rem;
+}
+.kitchen__date input {
+  border: none;
+  outline-color: transparent;
+  padding: 0.5rem 1rem;
+}
+.kitchen__tcount {
+  width: 128px;
+  height: 128px;
+  background: #9654f4;
+  border-radius: 50%;
+  font-size: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  color: white;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 600px) {
+  .kitchen__tcount {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+  }
+  .kitchen__date,
+  .kitchen__date input {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .kitchen__tcount {
+    width: 100px;
+    height: 100px;
+    font-size: 3rem;
+  }
+  .kitchen__date,
+  .kitchen__date input {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}

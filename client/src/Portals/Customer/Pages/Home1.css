@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap");
+
+:root {
+  --clr-primary: hsla(253, 92%, 64%, 1);
+  --ft-primary: "Montserrat", sans-serif;
+}
+img {
+  width: 100%;
+}
+.CustomerPortal {
+  width: 100%;
+  overflow: hidden;
+}
+.text--primary {
+  color: var(--clr-primary);
+}
+.CustomerPortal {
+  font-family: var(--ft-primary);
+  position: relative;
+}
+.CustomerHero__logo {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  letter-spacing: -0.015em;
+  color: var(--clr-primary);
+}
+.CustomerHero__flex {
+  background: linear-gradient(
+    9.41deg,
+    rgba(150, 84, 244, 0.15) 8.98%,
+    rgba(255, 255, 255, 0.19) 84.22%
+  );
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+}
+.CustomerHero__img {
+  text-align: center;
+}
+img[alt="hero"] {
+  margin-top: 42px;
+  height: 363px;
+  width: 291.2826843261719px;
+}
+img[alt="cake"],
+img[alt="cofee"],
+img[alt="fries"],
+img[alt="pizza"],
+img[alt="tacbo"] {
+  display: none;
+}
+
+.CustomerHero__content h2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 120%;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+  text-align: center;
+}
+.CustomerHero__content p {
+  margin-top: 8px;
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 141%;
+  letter-spacing: -0.01em;
+  color: rgba(24, 14, 55, 0.83);
+  margin-bottom: 2rem;
+}
+.customerWidth {
+  width: min(70rem, 90%);
+  margin: 1rem auto;
+}
+.btn1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.2px;
+  line-height: 141%;
+  letter-spacing: -0.01em;
+  color: #f4f4f4;
+  background: linear-gradient(96.63deg, #7527e4 1.02%, #8634d9 100%);
+  box-shadow: 0px 8px 40px rgba(29, 29, 29, 0.16);
+  border-radius: 5.15111px;
+  color: white;
+  padding: 0.5rem 1rem;
+  outline-color: transparent;
+  border: none;
+  position: absolute;
+  bottom: -3%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.btn2 {
+  display: none;
+}
+.Customer--title {
+  text-align: center;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -0.015em;
+  color: #5900d9;
+}
+.Customer--text20 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+  margin: 24px 10px;
+}
+.CustomerGallery__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6rem;
+}
+.CustomerGallery--radius {
+  aspect-ratio: 1/1;
+  box-shadow: 0px 16px 40px rgba(0, 0, 0, 0.16);
+  border-radius: 6px;
+  object-fit: cover;
+}
+.viewgallery__style {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #9654f4;
+  text-decoration: none;
+}
+img[alt="rightarrow"] {
+  width: 13px;
+  margin-left: 0.5rem;
+}
+.viewgallery__style__flex {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.CustomerFooter {
+  margin-top: 4rem;
+  background: linear-gradient(
+    92.36deg,
+    #b78af7 0.29%,
+    rgba(124, 32, 255, 0.74) 104.09%
+  );
+  backdrop-filter: blur(2px);
+  padding: 1rem 0.5rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+img[alt="instagramhome"] {
+  height: 20px;
+  width: 20px;
+  margin-top: 0.5rem;
+}
+@media only screen and (min-width: 600px) {
+  .CustomerGallery__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0.6rem;
+  }
+  .CustomerHero__logo {
+    text-align: center;
+    scale: 1.5;
+    margin-top: 3rem;
+  }
+}

@@ -1,0 +1,19 @@
+.Main__top {
+  margin-top: 32px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.Main__center {
+  width: 98%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.MainWrapper {
+  overflow: scroll;
+  height: 90vh;
+}

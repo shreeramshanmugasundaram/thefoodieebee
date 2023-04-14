@@ -1,0 +1,49 @@
+.AdminTable {
+  margin: 0 12px;
+}
+.AdminTable__content {
+  overflow: scroll;
+  height: 80vh;
+}
+.AdminTable h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+  margin: 20px 0;
+  text-transform: capitalize;
+}
+.AdminTable__userdetail__header,
+.AdminTable__userdetail__row {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 0.5fr 1.2fr;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -0.025em;
+  padding: 20px;
+  justify-items: center;
+}
+.AdminTable__userdetail__header {
+  background: #8133f1;
+  color: #ffffff;
+  border-radius: 10px 10px 0 0;
+}
+.AdminTable__userdetail__row {
+  border-bottom: 1px solid #e7e7e9;
+  background: #ffffff;
+  color: #413b51;
+  font-weight: 400;
+  font-size: 1rem;
+}
+.AdminTable__userdetail__row :nth-child(1) {
+  text-transform: capitalize;
+}
+/* .AdminTable__emailid {
+  font-size: 0.8rem;
+} */

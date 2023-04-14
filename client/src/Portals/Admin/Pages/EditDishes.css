@@ -1,0 +1,66 @@
+.EditDishes {
+  height: 90vh;
+  overflow: scroll;
+}
+.EditDishes__inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #efe6fd;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  width: 80%;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.015em;
+  color: rgba(24, 14, 55, 0.83);
+  margin-top: 12px;
+}
+.EditDishes__inputs input {
+  background: transparent;
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+}
+.EditDishes__inputs textarea {
+  width: 80%;
+  margin-left: 1rem;
+  padding: 0.5rem;
+}
+.EditDishes__inputs input[type="checkbox"] {
+  margin-right: 0.5rem;
+}
+.EditDishes__addons {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.EditDishes__save {
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
+}
+.EditDishes h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 24px;
+  letter-spacing: -0.015em;
+  color: #8133f1;
+  margin: 40px;
+  text-align: center;
+}
+
+.EditDishes__addons__inputs {
+  margin-top: 10px;
+}
+.EditDishes__addons__inputs input {
+  border: 1px solid #333;
+  border-radius: 4px;
+  margin: 4px;
+}

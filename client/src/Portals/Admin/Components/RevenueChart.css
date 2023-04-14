@@ -1,0 +1,40 @@
+.RevenueChart {
+  background: #ffffff;
+  border: 1px solid #e7e7e9;
+  box-shadow: 0px 12px 60px rgba(100, 100, 100, 0.12);
+  border-radius: 15.0702px;
+  display: grid;
+  width: 900px;
+}
+
+.RevenueChart button {
+  padding: 0.5rem 1rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+  color: #413b51;
+  border: 1px solid #e7e7e9;
+  border-radius: 4px;
+  margin: 0.5rem;
+}
+.RevenueChart select {
+  padding: 0.5rem 1rem;
+  margin: 4px 12px 0px auto;
+}
+
+.RevenueChart h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.025em;
+  color: #0f0923;
+}

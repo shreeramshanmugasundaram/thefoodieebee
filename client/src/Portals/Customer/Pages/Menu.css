@@ -1,0 +1,185 @@
+/* For all */
+.Menu__warpper {
+  background-color: #fbfbfb;
+  padding-top: 1rem;
+  height: 100%;
+  overflow: hidden;
+}
+.Menu__title {
+  display: flex;
+  align-items: center;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 34px;
+  color: #8133f1;
+  gap: 0.5rem;
+}
+img[alt="MenuLogo"] {
+  width: 44px;
+  height: 44px;
+}
+img[alt="MenuCart"] {
+  width: 20px;
+  height: 20px;
+}
+img[alt="MenuSearch"] {
+  width: 20px;
+  height: 20px;
+  margin: 0 0.2rem 0 1rem;
+}
+
+img[alt="slidefilterimg"] {
+  width: 82px;
+  height: 82px;
+  border-radius: 6px;
+  margin: 4px auto;
+}
+
+.Menu__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.8rem;
+}
+.Menu__search {
+  display: flex;
+  align-items: center;
+  margin: 0 12px;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+.Menu__search input {
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  outline-color: transparent;
+  font-family: "Montserrat";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  width: 100%;
+}
+.Menu__slidefilter {
+  width: 110%;
+  overflow: hidden;
+  margin: 24px 0;
+  font-weight: 600;
+  font-size: 10px;
+  font-family: "Montserrat";
+}
+.Menu__slidefilter__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Menu__slidefilter__card h3 {
+  margin: 8px auto;
+  text-align: center;
+}
+.slick-dots {
+  display: none;
+}
+/* custom radio buttons */
+input[type="radio"]:focus {
+  outline: transparent;
+}
+.Menu__Veg {
+  margin: 0 12px;
+}
+/* The container */
+.Menu__Veg .container {
+  display: inline-block;
+  position: relative;
+  padding-left: 25px;
+  margin: 8px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #007a00;
+}
+
+/* Hide the browser's default radio button */
+.Menu__Veg .container input {
+  position: absolute;
+  opacity: 0;
+}
+
+/* Create a custom radio button */
+.Menu__Veg .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 2px solid #007a00;
+}
+
+/* On mouse-over, add a grey background color */
+/* .container:hover input ~ .checkmark {
+  background-color: #ccc;
+} */
+
+/* When the radio button is checked, add a blue background */
+.Menu__Veg .container input:checked ~ .checkmark {
+  background-color: transparent;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.Menu__Veg .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.Menu__Veg .container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.Menu__Veg .container .checkmark:after {
+  top: 2.5px;
+  left: 2.5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #007a00;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .Menu__warpper,
+  .PopCardbg {
+    width: min(45rem, 98%);
+    margin: 0 auto;
+    overflow: hidden;
+  }
+  .Menu__slidefilter {
+    width: 100%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,36 @@
+.AdminNav img {
+  height: 27px;
+  width: 27px;
+  margin-top: 20px;
+}
+.AdminNav img[alt="adminprofileimage"] {
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 24px;
+}
+.AdminNav img[alt="adminlogoimage"] {
+  width: 64px;
+  height: 64px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.AdminNav {
+  width: 143px;
+  height: 100vh;
+  background: #ffffff;
+  border: 1px solid #e7e7e9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.AdminNav span {
+  width: 80px;
+  margin-top: 1rem;
+  display: block;
+  border: 1px solid #e7e7e9;
+}
